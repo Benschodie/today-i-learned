@@ -55,12 +55,14 @@
   padding: 1em;
 }
 
-.o-gradient-css {
+.o-gradient-css,
+.o-gradient-regex {
   background: linear-gradient(to right, #bf3265 0%, #692873 100%);
 }
 
 .o-gradient-html,
-.o-gradient-tutorial {
+.o-gradient-tutorial,
+.o-gradient-Git {
   background: linear-gradient(to right, #7ed8b8 0%, #19b9e5 100%);
 }
 
