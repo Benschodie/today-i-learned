@@ -69,28 +69,6 @@ class Home extends Component {
             <title>Today I learned | Home</title>
           </Helmet>
           <h1 className="centered">Today I learned</h1>
-
-          <Card>
-            <h2>What is this?</h2>
-            <p>
-              Web development and being a "programmer" often feels overwhelming.
-              The amount of information out there is very intimidating.
-              Especially when you're entering the field it's very easy to feel
-              lost and stuck.
-            </p>
-            <p>
-              Writing down learnings helps to fight this feeling. With this
-              project you can easily start building a central place to see the
-              progress on your learning journey.
-            </p>
-            <p>
-              And maybe (just maybe)... you want to share your learnings, too,
-              because what you'll learn over time is that nobody knows
-              everything and that every learning from your perspective can be
-              completely new to someone else.
-            </p>
-          </Card>
-
           <h2 className="centered">Learnings</h2>
           <ul className="o-grid">
             {Object.entries(categories).map(
