@@ -66,6 +66,7 @@
   background: linear-gradient(to right, #7ed8b8 0%, #19b9e5 100%);
 }
 
-.o-gradient-javascript {
+.o-gradient-javascript,
+.o-gradient-contentful {
   background: linear-gradient(to right, #fad088 0%, #f48782 100%);
 }
