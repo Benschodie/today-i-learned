@@ -16,11 +16,8 @@ export default () => {
           <span role="img" aria-label="learned">
             ✏️
           </span>{' '}
-          #TIL <span aria-hidden="true">(Heute habe ich gelernt)</span>
+          #TIL <span aria-hidden="true"></span>
         </div>
-        <Link to={'/tutorial/'} className="c-header__button o-btn">
-          Set up your own!
-        </Link>
       </nav>
     </header>
   );
